@@ -151,7 +151,7 @@ Robin Berjon, robin@knowscape.com
 
 =head1 COPYRIGHT
 
-Copyright (c) 2001 Robin Berjon. All rights reserved. This program is
+Copyright (c) 2001-2002 Robin Berjon. All rights reserved. This program is
 free software; you can redistribute it and/or modify it under the same
 terms as Perl itself.
 

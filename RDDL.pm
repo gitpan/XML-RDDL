@@ -11,7 +11,7 @@ use XML::RDDL::Directory    qw();
 use XML::RDDL::Resource     qw();
 
 use vars qw($VERSION $NS_RDDL $NS_XML $NS_XLINK);
-$VERSION  = '0.03';
+$VERSION  = '1.00';
 $NS_XML   = 'http://www.w3.org/XML/1998/namespace';
 $NS_RDDL  = 'http://www.rddl.org/';
 $NS_XLINK = 'http://www.w3.org/1999/xlink';
@@ -165,20 +165,6 @@ This module is meant to be used as a SAX2 handler that will return a
 Directory instance containing all resource descriptions at the end of
 the parse.
 
-If you don't know where to find a SAX2 parser, you may wish to use
-either XML::SAX::Expat, XML::SAX::PurePerl, or XML::Filter::SAX1toSAX2
-provided they are on CPAN when you read this. If they are not, or if
-they seem too alpha, you might want to grab the versions available
-from:
-
-  http://berjon.com/perl/XML-SAX-Expat-0.01.tar.gz
-  (requires http://berjon.com/perl/XML-NodeFactory-SAX2-0.01.tar.gz)
-  http://hampton.ws/download/files/XML-Filter-SAX1toSAX2-0.11.tar.gz
-  (requires http://hampton.ws/download/files/XML-Filter-Base-0.21.tar.gz)
-
-The best, until the said versions are released to CPAN, is to keep up
-to date with the perl-xml list.
-
 =head1 METHODS
 
 =over 4
@@ -208,9 +194,9 @@ Robin Berjon, robin@knowscape.com
 
 =head1 COPYRIGHT
 
-Copyright (c) 2001 Robin Berjon. All rights reserved. This program is
-free software; you can redistribute it and/or modify it under the same
-terms as Perl itself.
+Copyright (c) 2001-2002 Robin Berjon. All rights reserved. This program
+is free software; you can redistribute it and/or modify it under the 
+same terms as Perl itself.
 
 =head1 SEE ALSO
 
@@ -218,3 +204,4 @@ http://www.rddl.org/, XML::RDDL::Directory, XML::RDDL::Resource,
 XML::RDDL::Driver
 
 =cut
+
