@@ -1,9 +1,9 @@
 
 use strict;
 use Test;
-use XML::SAX::Expat     qw();
-use XML::RDDL           qw();
-use XML::RDDL::Resource qw();
+use XML::SAX::ParserFactory qw();
+use XML::RDDL               qw();
+use XML::RDDL::Resource     qw();
 BEGIN {plan tests => 52}
 
 my $rddl =<<'EORDDL';
@@ -50,7 +50,7 @@ EORDDL
 
 # test the parser and the resources
 my $h = XML::RDDL->new;
-my $d = XML::SAX::Expat->new(Handler => $h);
+my $d = XML::SAX::ParserFactory->parser(Handler => $h);
 my $r = $d->parse(Source => {String => $rddl });
 ok($r);                                                                     # 1
 

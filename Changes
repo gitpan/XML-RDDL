@@ -1,6 +1,9 @@
 
 Revision history for Perl extension XML::RDDL:
 
+1.02  sun 20020707 03:55
+    - a test file was rotten
+
 1.01  sat 20020706 19:40
     - added proper prereqs
 
