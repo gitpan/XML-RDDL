@@ -7,6 +7,6 @@ WriteMakefile(
     'AUTHOR'        => 'Robin Berjon',
     'ABSTRACT'      => 'Interface to RDDL (http://www.rddl.org/)',
     'PREREQ_PM'     => {
-                        XML::SAX::Base          => '0.24',
+                        XML::SAX    => '0.00',
                        },
 );

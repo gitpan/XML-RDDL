@@ -11,7 +11,7 @@ use XML::RDDL::Directory    qw();
 use XML::RDDL::Resource     qw();
 
 use vars qw($VERSION $NS_RDDL $NS_XML $NS_XLINK);
-$VERSION  = '1.00';
+$VERSION  = '1.01';
 $NS_XML   = 'http://www.w3.org/XML/1998/namespace';
 $NS_RDDL  = 'http://www.rddl.org/';
 $NS_XLINK = 'http://www.w3.org/1999/xlink';
@@ -195,7 +195,7 @@ Robin Berjon, robin@knowscape.com
 =head1 COPYRIGHT
 
 Copyright (c) 2001-2002 Robin Berjon. All rights reserved. This program
-is free software; you can redistribute it and/or modify it under the 
+is free software; you can redistribute it and/or modify it under the
 same terms as Perl itself.
 
 =head1 SEE ALSO
